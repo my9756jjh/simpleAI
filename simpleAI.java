@@ -1,5 +1,3 @@
-package frame;
-
 import javax.swing.*;
 import javax.swing.plaf.FontUIResource;
 import java.awt.*;
@@ -38,7 +36,7 @@ public class simpleAI {
         output.setHorizontalAlignment(JLabel.CENTER);
 
         JLabel logo = new JLabel();
-        ImageIcon img = new ImageIcon(simpleAI.class.getResource("/frame/로고/log.png"));
+        ImageIcon img = new ImageIcon(simpleAI.class.getResource("log.png"));
         logo.setIcon(img);
         logo.setBounds(0, 30, 338, 100);
         logo.setHorizontalAlignment(JLabel.CENTER);
